@@ -1,0 +1,356 @@
+*{margin: 0;
+padding: 0;}
+
+/* header section */
+
+span{
+    color: red;
+}
+.header{
+    width: 85%;
+    height: 500px;
+    margin: 10px auto;
+     background-image: url('../Assets/Hero-bg.png');
+
+}
+.head{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar button{
+    font-size: 24px;
+    width: 105px;
+}
+.navbar h1{
+    font-size: 50px;
+    color: #4E47FF;
+    margin-left: 0;
+
+}
+
+ /* Button Hover effect */
+
+
+ button{
+    font-size: 20px;
+    width: 110px;
+    height: 45px;
+    background-color:#4E47FF ;
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+
+}
+button:hover{
+    background-color: red;
+    transition: .3s;
+}
+
+
+/* banner section */
+
+
+.banner{
+    width: 85%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+.text-bt{
+   margin-top: 80px;
+}
+.text-bt,h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+.text-bt button{margin-left: 122px;
+background-color: red;}
+.text-bt button:hover{
+    background-color: blue;
+}
+
+
+/* Action section */
+
+
+.action{
+    display: flex;
+    gap: 30px;
+    width: 85%;
+    margin: 50px auto;
+   
+    justify-content: space-between;
+  
+  
+}
+.action-child1,button{
+    margin-top: 16px;
+}
+
+.action-child1{
+    width: 80%;
+
+}
+.action-child1 p{
+    font-size: 20px;
+    ;
+
+}
+
+.action-child2{
+    display: flex;
+   width: 30%;
+   justify-content: end;
+}
+.action-child,img{
+    height: 300px;
+    width: 300px;
+    border-radius: 15%;
+}
+.action-child1 h3{
+    color: #252432;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.action-child1,p{
+   color:#252432;
+   width: auto;
+   white-space: nowrap;
+    
+}
+.action-child1,button{
+    width: 140px;
+}
+
+
+/* Productive user section */
+
+   
+
+.user-action{
+    width: 85%;
+    height: 450px;
+    justify-content: center;
+    
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.Productive-user-section{
+    width: 100%;
+    margin-top: 70px;
+    height: 400px;
+    background-color: rgba(5, 23, 23, 0.114);
+    box-shadow: 3px 10px 12px;
+    
+  
+}
+    
+
+.Productive-user-section h2{
+ padding: 50px  0;
+  font-size: 46px;
+  font-weight: bolder;
+    width:100%;
+    text-align: center;
+    color: RED;
+}
+.productive-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+     gap: 230px;
+    
+    
+}
+.user h3{
+    font-size: 70px;
+    font-weight: bolder;
+    color: blue;
+}
+
+/* User feedback/ challenge section */
+
+.challenge-section{
+    width: 85%;
+    height: 400px;
+    
+    margin: 100px auto;
+}
+.feedback{
+    width: 400px;
+    height: 250px;
+    border: 1px solid fuchsia;
+    padding-left: 40px;
+    box-shadow: 0 10px 15px ;
+   
+}
+.user-feedback{
+
+    display: flex;
+    margin-top: 20px;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.challenge-section h5{
+    margin: 40px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+
+.star{width: 20px;
+height: 20px;}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+}
+.feedback,p{
+    text-align: start;
+    font-size: 20px;
+    padding-top: 8px;
+}
+h6{
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.revew{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+/* Touch / form section */
+
+.contaner{
+    width: 85%;
+}
+.form-text{
+
+    width: 85%;
+    background-color: #4d47ff25;
+    box-shadow: 0px 10px 15px rgba(255, 0, 255, 0.297);
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+ 
+   align-items: center;
+
+   
+     
+}
+.text{
+    width: 50%;
+   
+    
+    text-align: center;
+}
+.text ,h3{
+    font-size:42px ;
+    font-weight: bolder;
+    color: #000000;
+}
+.fill{
+   
+  height: 350px;
+  width: 300px;
+
+     
+}
+.fill ,input ,label,textarea{
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+   
+    
+}
+.fill input{
+   width: 690px;
+    height: 36px;
+    border: none;
+}
+.fill, textarea{
+    width: 690px;
+    border: none;
+   
+}
+.fill button{
+    width: 690px;
+    background-color: red;
+}
+.fill button:hover{
+    background-color: blue;
+}
+
+
+
+/* Footer section */
+
+
+.footer{
+    width: 85%;
+    height: 500px;
+    text-align: center;
+    margin: 100px auto;
+    background-color: rgba(127, 255, 212, 0.228);
+    box-shadow: 0 10px 20px;
+    
+   
+}
+.anchor{ 
+    width: 100%;
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    margin: 0 20px;
+    background-color: rgba(128, 0, 117, 0.648);
+    color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+a:hover{
+    background-color:red; 
+    transition: .3s;
+    color:white;
+}
+.hp p{margin-top:10px ;
+text-align: center;}
+.hp h4{font-size: 70px;
+   padding-top: 130px;
+font-weight: bolder;
+color:fuchsia }
+.hp p{
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
