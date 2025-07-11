@@ -203,13 +203,13 @@ background-color: red;}
    
 }
 .user-feedback{
-
     display: flex;
-    margin-top: 20px;
-    gap: 150px;
+    width: 100%;
+    gap: 100px;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    background-color: rgb(245, 245, 245);
     
 }
 
