@@ -193,10 +193,11 @@ background-color: red;}
     height: 400px;
     
     margin: 100px auto;
+    
 }
 .feedback{
     width: 400px;
-    height: 250px;
+    height: 280px;
     border: 1px solid fuchsia;
     padding-left: 40px;
     box-shadow: 0 10px 15px ;
@@ -204,7 +205,6 @@ background-color: red;}
 }
 .user-feedback{
     display: flex;
-    width: 100%;
     gap: 100px;
     justify-content: center;
     align-items: center;
